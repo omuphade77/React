@@ -1,0 +1,35 @@
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+}
+
+/* App container */
+.App {
+  min-height: 100vh;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* App heading */
+.App h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #1e293b;
+  letter-spacing: 1px;
+}
+
+/* Profiles grid */
+.App > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
