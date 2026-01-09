@@ -1,0 +1,30 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full height */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+/* Center everything inside root */
+body {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #6366f1, #22d3ee);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Root container */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
